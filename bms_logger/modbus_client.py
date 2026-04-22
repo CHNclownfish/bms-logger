@@ -6,9 +6,9 @@ from .models import DeviceConfig, RegisterDef
 
 
 DEFAULT_REGISTERS = {
-    "voltage": RegisterDef(name="System voltage", address=0x0020, scale=1.0, value_offset=0.0),
+    "voltage": RegisterDef(name="System voltage", address=0x0020, scale=0.1, value_offset=0.0),
     "current": RegisterDef(name="System current", address=0x0021, scale=1.0, value_offset=-20000.0),
-    "soc": RegisterDef(name="SOC", address=0x0022, scale=1.0, value_offset=0.0),
+    "soc": RegisterDef(name="SOC", address=0x0022, scale=0.1, value_offset=0.0),
 }
 
 
