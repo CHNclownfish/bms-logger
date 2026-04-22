@@ -1,0 +1,15 @@
+[project]
+name = "bms-logger"
+version = "0.1.0"
+description = "PySide6 Modbus TCP logger for BMS telemetry"
+requires-python = ">=3.10"
+
+authors = [
+  { name = "OpenAI" }
+]
+
+dependencies = [
+  "PySide6>=6.7,<7",
+  "pymodbus>=3.6,<4",
+  "openpyxl>=3.1,<4"
+]
